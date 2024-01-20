@@ -22,9 +22,11 @@ public class WrapperExample {
         //RULE: final variable has to be initialised..
         A obj;
         //such a high number to basically put load
-        for(int i=0;i<1000000000;i++){       //expensive to run this
-            obj=new A("randowm name");
-        }
+//        for(int i=0;i<1000000000;i++){       //expensive to run this
+//            obj=new A("randowm name");
+//        }
+
+
 
     }
     static class A{
