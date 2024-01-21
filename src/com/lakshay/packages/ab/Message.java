@@ -1,4 +1,4 @@
-package packages.ab;
+package com.lakshay.packages.ab;
 
 public class Message {
     public static void main(String[] args){

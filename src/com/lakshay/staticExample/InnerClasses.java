@@ -12,10 +12,11 @@ public class InnerClasses {
             this.name=name;
         }
 
-        @Override
-        public String toStrin(String name){
-            System.out.println(name);
-        }
+//        @Override
+//        public String toString(String name){
+//
+//            System.out.println(name);
+//        }
     }
 
     public static void main(String[] args) {
