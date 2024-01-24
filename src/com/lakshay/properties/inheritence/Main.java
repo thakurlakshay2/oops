@@ -33,5 +33,13 @@ public class Main {
 
         BoxPrice boxp=new BoxPrice();
 
+        //STATIC METHOD IN BOX how to access , can we override statuc
+        Box.greeting();
+
+        Box boxwt=new BoxWeight();
+
+        //static is inherited but cannot be overriden
+        boxwt.greeting();  //Static method will not be overridden , as static does not require instance
+
     }
 }

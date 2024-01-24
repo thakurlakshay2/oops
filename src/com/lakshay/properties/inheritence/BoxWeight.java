@@ -28,4 +28,10 @@ public class BoxWeight extends Box {
         //super should be used
         this.weight=weight;
     }
+
+//    @Override
+    static void greeting(){
+        System.out.println("Box weight greetinh");
+    }
+
 }
